@@ -1,6 +1,6 @@
 free disk space less than 20% : 
-1 / 目录下
+1 / 目录下 gxx_vn 45.119.241.237
 df -h (查看磁盘文件大小） 找出大文件进行清理 （日志的话清理日期靠前的日志）批量删除使用通配符*
 
-2 /boot 目录下
+2 /boot 目录下. gxx_vn 122.11.128.206
 可以使用sudo apt-get autoremove 命令自行清理

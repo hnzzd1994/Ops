@@ -1,0 +1,6 @@
+free disk space less than 20% : 
+1 / 目录下
+df -h (查看磁盘文件大小） 找出大文件进行清理 （日志的话清理日期靠前的日志）
+
+2 /boot 目录下
+可以使用sudo apt-get autoremove 命令自行清理

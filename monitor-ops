@@ -11,3 +11,7 @@ Memory
 Ram : 91%, Swap : 1% : > 80, 5 : CRITICAL :
 使用top/htop命令查看内存，swap（内存不够是会使用，一般不希望使用）以及cpu使用情况， 预设的memcache会导致ram偏高，这种情况对线上服务没有影响
 有影响的情况说明原因 以及恢复时间
+
+
+
+nslookup 查看DNS信息

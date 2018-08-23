@@ -15,3 +15,16 @@ Ram : 91%, Swap : 1% : > 80, 5 : CRITICAL :
 
 
 nslookup 查看DNS信息
+
+
+
+nginx-> fileserver
+Name:	file.gas.garenanow.com
+Address: 103.239.122.138
+
+Address: 103.239.122.137
+
+Address: 103.239.122.143
+
+  去 /opt/running/FileServer/看看log 抓error 使用grep error 配合 管道符 进行过滤 
+ 比如 cat FileServer.log.20180823.165252 | grep -i set | grep -i error 重定向成文本进行分析

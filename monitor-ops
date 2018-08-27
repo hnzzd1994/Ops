@@ -39,3 +39,6 @@ vi config
 StrictHostKeyChecking no(解决登陆时无需确认yes)
  
  
+ xargs rm -rf {} 删除大量小文件
+ 
+ 

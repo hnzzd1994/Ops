@@ -38,7 +38,9 @@ ssh个人配置 先加载个人配置再加载全局配置(/etc/ssh/ssh_config(�
 vi config
 StrictHostKeyChecking no(解决登陆时无需确认yes)
  
- 
+ 清理策略：
+ 只保留七天的数据（文件和文件夹）
+ 0 4 * * * root find /data/scribe/12315 -name '*'  -mtime +7 | xargs rm -rf {}
  xargs rm -rf {} 删除大量小文件
  
  netstat -tlnp 查看端口的服务

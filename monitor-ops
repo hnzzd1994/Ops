@@ -54,6 +54,7 @@ sudo brew install python2
 安装pip:
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
+pip install ansible
 初始化脚本：
 python sea_tod_init.py gxx sg l (l为linux)
 python sea_tod_update_svr_list (update svr list 需要事先填上WAN IP)

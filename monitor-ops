@@ -59,4 +59,5 @@ pip install ansible
 python sea_tod_init.py gxx sg l (l为linux)
 python sea_tod_update_svr_list (update svr list 需要事先填上WAN IP)
 
- 
+日志目录
+vim /etc/log-collector/config.json

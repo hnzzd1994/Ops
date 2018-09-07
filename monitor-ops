@@ -15,7 +15,7 @@ Ram : 91%, Swap : 1% : > 80, 5 : CRITICAL :
 
 
 
-nslookup 查看DNS信息
+nslookup 查看DNS信息(双向）
 
 
 
